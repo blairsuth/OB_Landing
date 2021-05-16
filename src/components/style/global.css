@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@layer base {
+  article {
+    @apply my-4;
+  }
+  h1 {
+    @apply my-8 text-2xl font-bold lg:text-5xl md:text-3xl;
+  }
+  h2 {
+    @apply my-6 text-xl font-semibold lg:text-3xl;
+  }
+  h3 {
+    @apply my-4 font-medium lg:text-2xl;
+  }
+  p {
+    @apply mb-2;
+  }
+  section {
+    @apply my-6;
+  }
+  ul {
+    @apply ml-8 list-disc list-outside;
+  }
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+.base-bg {
+  background-color: #e9e9e9;
+}
+.alt-bg {
+  background-color: #2b32b2;
+}
+.yellow-bg {
+  background-color: #fffaa6;
+}
+.indigo {
+  color: #2b32b2;
+}
+.white {
+  color: #ffffff;
+}
