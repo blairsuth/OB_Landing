@@ -44,12 +44,12 @@ const IndexPage = () => {
   return (
     <Layout>
       <Seo title="Home" />
-      <div className="flex flex-col flex-col-reverse py-2 text-center md:flex-row py-16 lg:flex-row py-8 ">
+      <div className="flex flex-col flex-col-reverse py-2 text-center md:flex-row py-16 text-left lg:flex-row py-8 text-left">
         {/* Banner */}
         <div>
           
         <h1>Find The Best Service Pros Near You!</h1>
-          <h3 className="mt-1 indigo">Search it. Book it. Get it done.</h3>
+          <h3 className="mt-1 indigo md:text-left">Search it. Book it. Get it done.</h3>
           <div className="flex flex-col text-center lg:text-left">
           <h2 className="indigo">Get Notified</h2>
           <h3 className="font-semibold">Share your contact details to find out when we launch!</h3>

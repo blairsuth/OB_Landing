@@ -5539,7 +5539,7 @@ const IndexPage = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__.default, {
     title: "Home"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "flex flex-col flex-col-reverse py-2 text-center md:flex-row py-16 lg:flex-row py-8 "
+    className: "flex flex-col flex-col-reverse py-2 text-center md:flex-row py-16 text-left lg:flex-row py-8 text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Find The Best Service Pros Near You!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     className: "mt-1 indigo"
   }, "Search it. Book it. Get it done."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
