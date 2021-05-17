@@ -44,7 +44,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <Seo title="Home" />
-      <div className="flex flex-col flex-col-reverse py-2 text-center md:flex-row py-16 text-left lg:flex-row py-8 text-left">
+      <div className="flex flex-col flex-col-reverse py-2 text-left md:flex-row text-left py-16 lg:flex-row py-8 text-left">
         {/* Banner */}
         <div>
           
