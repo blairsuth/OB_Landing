@@ -20,7 +20,7 @@ import Electrical from "../images/icons/electrical.svg";
 import Landscape from "../images/services/landscape.svg";
 import Pets from "../images/services/pets.svg";
 import Washing from "../images/icons/washing.svg";
-import Plumbing from "../images/icons/plumbing.svg";
+import Plumbing from "../images/services/plumber.svg";
 
 
 const IndexPage = () => {
