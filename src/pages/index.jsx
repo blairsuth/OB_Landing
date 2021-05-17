@@ -37,16 +37,17 @@ const IndexPage = () => {
 
   const shortCards = list.map((item) => (
     <div className="flex flex-col items-center px-2 py-4 bg-white shadow-xl md:px-0 md:py-0 rounded-2xl gap-y-0">
-      <img src={item.icon} className="w-10 h-10 md:w-48 md:h-48" alt="" />
+      <img src={item.icon} className="w-52 h-52 md:w-52 md:h-52" alt="" />
       <h3>{item.text}</h3>
     </div>
   ));
   return (
     <Layout>
       <Seo title="Home" />
-      <div className="flex flex-row justify-left py-2 text-left lg:py-8 md:py-16">
+      <div className="flex flex-col flex-col-reverse py-2 text-center md:flex-row py-16 lg:flex-row py-8 ">
         {/* Banner */}
         <div>
+          
         <h1>Find The Best Service Pros Near You!</h1>
           <h3 className="mt-1 indigo">Search it. Book it. Get it done.</h3>
           <div className="flex flex-col text-center lg:text-left">
@@ -54,7 +55,7 @@ const IndexPage = () => {
           <h3 className="font-semibold">Share your contact details to find out when we launch!</h3>
         
           <a href="https://zc.vg/uvZSt" target="_blank" rel='noopener noreferrer'>
-            <button className="px-10 py-4 mt-10 font-bold text-white md:text-2xl rounded-2xl" style={{ backgroundColor: "#2b32b2" }}>Sign Up Here</button>
+            <button className="px-10 py-4 mt-10 font-bold text-white w-full md:text-2xl rounded-2xl w-10" style={{ backgroundColor: "#2b32b2" }}>Sign Up Here</button>
           </a>
           
           {/* --- This section to be un-commented when email connections are completed. --- */}
@@ -72,16 +73,16 @@ const IndexPage = () => {
         
         </div>
         </div>
-        
         <img src={Services} className="w-full mt-1" alt="" />
+        
       </div>
       
-<div className="grid my-4 lg:grid-cols-2 gap-x-10">  
+<div className="grid my-4 md:grid-cols-2 lg:grid-cols-2 gap-x-10">  
       </div>
       {/*SERVICES */}
       <div className="flex flex-col px-6 py-8 pb-16 -mx-10 text-left alt-bg gap-y-4 lg:-mx-16 lg:px-16 md:px-10">
         <h2 className="white">Our Services</h2>
-        <div className="grid grid-cols-2 mt-18 lg:grid-cols-4 xl:gap-x-10 gap-x-10 md:gap-y-10 gap-y-10">
+        <div className="grid grid-cols-1 mt-2 lg:grid-cols-4 md:grid-cols-2 xl:gap-x-10 gap-x-10 md:gap-y-10 gap-y-10">
           {shortCards}
         </div>
       </div>
